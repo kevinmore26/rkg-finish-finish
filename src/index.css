@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+li.presentation{
+  z-index: 150;
+}
+@media (min-width: 1400px){}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 90vw;
+}
+code {
+  font-family: 'Indie Flower', cursive;
+    
+}
+.hola123
+{
+  display: flex;
+  justify-content:space-around;
+  /* margin: 10px; */
+}
+.porque
+{
+  display: flex;
+  justify-content: center;
+  color: rgb(25, 135, 84);
+  font-size: 40px;
+}
+
+section{
+  text-align: center;
+}
+.imgh1
+{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 0 auto;
+
+}
+.imgh3
+{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.imgh
+{
+ 
+  display: flex;
+  justify-content: center;
+  margin:  auto;
+  width: 100vw;
+}
+element.style
+{
+  margin: auto;
+}
+.bg-dark {
+  background-color: #128a4d!important;
+}
+.barra:hover{
+  color:white
+}
+.form-label
+{
+  color:'rgb(25, 135, 84)'
+}
+.descripcionempresa
+{
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+}
+.iconoadopta
+{
+  display: flex;
+}
+.botonkev1
+{
+  padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 40px;
+    color: whitesmoke;
+    background-color: rgb(25, 135, 84);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 28px;
+    font-size: 27px;
+}
+.botonkev1:hover
+
+{ background-color: rgb(55, 146, 103);
+
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1363px;
+}}
